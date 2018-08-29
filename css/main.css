@@ -1,0 +1,94 @@
+.main {
+  margin-top: 15px;
+}
+.main .main__top {
+  padding: 2px;
+  border-top: 1px solid rgb(235, 236, 236);
+  border-bottom: 1px solid rgb(235, 236, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(247, 248, 249);
+}
+.main__top .main__top-content1 {
+  color: blue;
+}
+.main__top-content1 i {
+  color: rgb(197, 198, 199);
+}
+.main__top .main__top-content2 {
+  margin: 5px 3px;
+  padding: 3px;
+  border: 1px solid rgb(241, 242, 243);
+  font-size: 12px;
+  background-color: white;
+}
+
+.main__middle .main__middle-rows {
+  padding: 15px;
+  display: flex;
+  border-top: 1px solid rgb(234, 235, 235);
+}
+
+.main__middle-rows .main__middle-row-img {
+  width: 100px;
+  height: 80px;
+}
+.main__middle-row-contents .main__middle-row-title {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+}
+.main__middle-row-contents .main__middle-row-content {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+.main__middle-rows .main__middle-divsion {
+  border: 1px solid black;
+  font-size: 5px;
+  color: white;
+  background-color: rgb(93, 111, 153);
+}
+.main__middle-rows .main__middle-row-titlebar {
+  font-size: 13px;
+}
+
+.main__bottom {
+  margin-top: 20px;
+  border-top: 1px solid rgb(236, 237, 238);
+}
+.main__bottom .main__bottom-titles {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(247, 248, 249);
+}
+.main__bottom-titles .main__bottom-title {
+  width: 33%;
+  border-right: 1px solid rgb(236, 237, 238);
+  font-size: 14px;
+}
+.main__bottom-titles .main__bottom-viewAll {
+  text-align: center;
+  border: 1px solid rgb(236, 237, 238);
+  font-size: 14px;
+  padding: 3px;
+  background-color: white;
+}
+.main__bottom-images {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__bottom-images .main__bottom-image {
+  font-size: 12px;
+  font-weight: 600;
+}
+.main__bottom-image .main__bottom-image-num {
+  width: 100px;
+  height: 80px;
+  padding: 5px;
+}
